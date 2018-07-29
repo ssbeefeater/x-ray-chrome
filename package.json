@@ -1,9 +1,12 @@
 {
   "name": "x-ray-chrome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "x-ray chrome driver using puppeteer",
-  "keywords": [],
-  "author": "Mike Antoniadis <ssbeefeater@gmail.com> (http://ssbeefeater.github.io/)",
+  "keywords": ["scraper","x-ray","chrome","puppeteer","nodejs","scrape","cheerio"],
+  "author": {
+    "name": "Mike Antoniadis",
+    "email": "ssbeefeater@gmail.com"
+  },
   "main": "build/index",
   "types": "build/index.d.ts",
   "scripts": {
