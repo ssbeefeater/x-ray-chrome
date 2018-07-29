@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "declaration": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "noUnusedParameters": false,
+    "sourceMap": false,
+    "outDir": "build",
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "lib": [
+      "esnext",
+      "dom",
+    ],
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "types/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

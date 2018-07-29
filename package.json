@@ -1,0 +1,39 @@
+{
+  "name": "x-ray-chrome",
+  "version": "1.0.0",
+  "description": "x-ray chrome driver using puppeteer",
+  "keywords": [],
+  "author": "Mike Antoniadis <ssbeefeater@gmail.com> (http://ssbeefeater.github.io/)",
+  "main": "build/index",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "test": "jest --coverage",
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf build",
+    "docs": "typedoc --theme markdown --includeDeclarations --excludeExternals --includes examples/ --out readme.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssbeefeater/x-ray-chrome.git"
+  },
+  "dependencies": {
+    "puppeteer": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/http-context": "^1.1.0",
+    "@types/jest": "^23.3.1",
+    "@types/lodash": "^4.14.115",
+    "@types/node": "^10.5.2",
+    "@types/puppeteer": "^1.5.1",
+    "@types/x-ray": "^2.3.2",
+    "concurrently": "^3.6.0",
+    "esnext": "^3.3.1",
+    "jest": "^23.4.0",
+    "ts-jest": "^23.0.1",
+    "tslint": "^5.11.0",
+    "typedoc-plugin-markdown": "^1.1.13",
+    "typescript": "^2.9.2",
+    "x-ray": "^2.3.3"
+  }
+}
