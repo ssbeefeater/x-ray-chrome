@@ -1,4 +1,13 @@
 
+# Installation
+
+```bash
+
+npm install x-ray-chrome --save
+        #or
+yarn add x-ray-chrome
+```
+
 # Usage
 
 ### Basic
